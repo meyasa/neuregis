@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+	background : url('https://cdn.neuronworks.co.id/v0.3.8/dev/assets/img/other/Starlid-illustration.svg') fixed no-repeat #ededed;
+}
+
+header {
+    background-color: #fff; 
+    color: #fff; 
+    padding: 10px; 
+	box-shadow: 1px 1px 14px #ededed;
+}
+
+h1, nav {
+    margin: 0;
+    padding: 0;
+}
+
+.reqbox {
+width: 700px;
+margin: 0 50%;
+padding: 30px;
+background-color: white;
+box-shadow: 3px 3px 10px 	#B0B0B0	;
+}
+
+.form-group {
+      margin-bottom: 10px;
+	  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding : 8px;
+  border: 1px solid #ccc;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+btn-submit:hover {
+  background-color: #0069d9;
+}
+
+section {
+    padding: 20px;
+}
+
+select{
+	width: 100%;
+	padding:8px;
+}
+
+h2 {
+    margin-top: 0;
+}

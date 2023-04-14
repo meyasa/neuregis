@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Halaman Rekrutasi</title>
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan dengan file CSS eksternal -->
+</head>
+
+<body>
+    <header>	
+			<a class="logo-container pl-3" href="https://neuronworks.co.id">                      
+                <img src="https://cdn.neuronworks.co.id/v0.3.8/dev/assets/img/logo/nw-horizontal.png" alt="PT. Neuronworks Indonesia" style="width: 8rem;">
+            </a>
+    </header>
+    <section style="position: absolute;">
+        <!--<img src="https://cdn.neuronworks.co.id/v0.3.8/dev/assets/img/other/Starlid-illustration.svg" alt="PT Neuronworks Indonesia" style="transform: scale(1.3); margin-left: 6.5rem; margin-top:135px;">-->
+	</section>
+    <section>	
+    <div class="reqbox">
+	  <div>
+		<img src="logomark-sign.png" style="width: 6rem;">
+		<nav style="margin-top: 30px; font-size: 30px;">Form Rekrutasi</nav>
+        <nav style="margin-bottom: 30px;">Isi data di bawah sesuai dengan identitas diri anda dan lowongan yang akan anda pilih</nav>
+  
+        <form action="#" method="post">
+		<div class="form-group">
+			<label for="nama">Full Name</label>
+			<input type="text" name="nama" id="nama" placeholder="Masukan nama"required>
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="Masukan email" required>
+		</div>
+		<div class="form-group">
+			<label for="telepon">Phone Number</label>
+			<input type="tel" name="telepon" id="telepon" placeholder="Masukan nomor telepon" required>
+		</div>
+		<div class="form-group">
+			<label for="pendidikan">Vacancy</label>
+			<select name="pendidikan" id="pendidikan" required>
+			<option value="">Pilih Lowongan</option>
+			<option value="SD">Mobile Dev</option>
+			<option value="SMP">Web Dev</option>
+			
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="pendidikan">Position</label>
+			<select name="pendidikan" id="pendidikan" required>
+			<option value="">Pilih Posisi</option>
+			<option value="SD">Front End</option>
+			<option value="SMP">Back End</option>
+			</select>
+		</div>
+		<button type="submit" class="btn-submit">Daftar</button>
+		</form>
+      </div>
+	</div>
+	</section>
+	
+</body>
+
+</html>
